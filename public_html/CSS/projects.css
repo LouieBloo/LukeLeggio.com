@@ -1,0 +1,139 @@
+.downloadButton{
+	text-align:center;
+	margin-top:85px;
+}
+
+.downloadButton button{
+	-webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  
+  -webkit-box-shadow: 0px 0px 10px 5px #000000;
+  -moz-box-shadow: 0px 0px 10px 5px #000000;
+  box-shadow: 0px 0px 10px 5px #000000;
+  font-family: Georgia;
+  color: #262626;
+  font-size: 35px;
+  padding: 10px 20px 10px 20px;
+  border: solid #ffffff 3px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color:transparent;
+}
+
+.downloadButton button:hover{
+	color: #FFFFFF;
+	 background: #333333;
+  text-decoration: none;
+}
+
+.gameNote{
+font-family: 'Lato', sans-serif;
+	font-size: 40px;
+  	font-weight: 400;
+  	
+  	color:#262626;
+  	
+}
+
+.noteParagraph{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+  	font-weight: 400;
+  	
+  	margin:0px;
+  	color:#4d4d4d;
+  	
+}
+
+.leftSegmentHeader{
+	font-family: 'Lato', sans-serif;
+	font-size: 40px;
+  	font-weight: 400;
+  	text-align:center;
+  	color:#262626;
+  	
+}
+
+.leftSegmentHeader p{
+	margin-bottom:20px;
+}
+
+.lowerDownloadStuff{
+	margin-left:15%;
+}
+
+#note{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+  	font-weight: 400;
+  	text-align:center;
+  	padding-right:10px;
+  	padding-left:10px;
+  	margin-left:auto;
+  	margin-right:auto;
+  	max-width:800px;
+  	color:#4d4d4d;
+  	margin-bottom:50px;
+}
+
+.screenshotDiv{
+	text-align:center;
+}
+
+.screenshotDiv p{
+	
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+.screenshotDiv img{
+	
+	height:300px;
+	width:500px;
+	
+	margin-top:25px;
+	margin-left:30px;
+	margin-right:30px;
+	
+	-webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  
+  -webkit-box-shadow: 0px 0px 10px 5px #000000;
+  -moz-box-shadow: 0px 0px 10px 5px #000000;
+  box-shadow: 0px 0px 10px 5px #000000;
+  
+  border: solid #ffffff 3px;
+  
+}
+
+.screenshotMiddle{
+	
+}
+
+#projectCategories{
+	padding-left:5%;
+	padding-right:5%;
+}
+
+#youtubeAd{
+		font-family: 'Lato', sans-serif;
+	font-size: 20px;
+  	font-weight: 400;
+  	text-align:center;
+  	padding-left:20%;
+  	padding-right:20%;
+  	color:#4d4d4d;
+  	margin-bottom:50px;
+}
+
+#youtubeVid{
+	display:block;
+	margin:auto;
+	margin-bottom:50px;
+}
+
+#welcomeMessage{
+	background-image: url("../Pictures/projectsBackground.png");
+}

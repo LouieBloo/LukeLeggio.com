@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simpleviewergallery
+	
+	galleryStyle="MODERN"
+	title="2015 World Trip"
+	textColor="FFFFFF"
+	frameColor="FFFFFF"
+	frameWidth="20"
+	thumbPosition="LEFT"
+	thumbColumns="3"
+	thumbRows="3"
+	showOpenButton="TRUE"
+	showFullscreenButton="TRUE"	
+	maxImageWidth="800"
+	maxImageHeight="800"
+	useFlickr="false"
+	flickrUserName=""
+	flickrTags=""
+	languageCode="AUTO"
+	languageList=""		
+	imagePath="images/"
+	thumbPath="thumbs/"
+	
+>
+
+<image imageURL="Pictures/trip1.jpg" thumbURL="Pictures/trip1.jpg" linkURL="" linkTarget="" >
+	<caption>My Trip!</caption>	
+</image>
+<image imageURL="Pictures/trip2.jpg" thumbURL="Pictures/trip2.jpg" linkURL="" linkTarget="" >
+	<caption>My Trip!</caption>		
+</image>
+<image imageURL="Pictures/trip3.jpg" thumbURL="Pictures/trip3.jpg" linkURL="" linkTarget="" >
+	<caption>My Trip!</caption>		
+</image>
+<image imageURL="Pictures/trip4.jpg" thumbURL="Pictures/trip4.jpg" linkURL="" linkTarget="" >
+	<caption>My Trip!</caption>		
+</image>
+<image imageURL="Pictures/trip5.jpg" thumbURL="Pictures/trip5.jpg" linkURL="" linkTarget="" >
+	<caption>My Trip!</caption>		
+</image>
+<image imageURL="Pictures/trip6.jpg" thumbURL="Pictures/trip6.jpg" linkURL="" linkTarget="" >
+	<caption>My Trip!</caption>		
+</image>
+<image imageURL="Pictures/trip7.jpg" thumbURL="Pictures/trip7.jpg" linkURL="" linkTarget="" >
+	<caption>My Trip!</caption>	
+</image>
+<image imageURL="Pictures/trip8.jpg" thumbURL="Pictures/trip8.jpg" linkURL="" linkTarget="" >
+	<caption>My Trip!</caption>	
+</image>
+<image imageURL="Pictures/trip9.jpg" thumbURL="Pictures/trip9.jpg" linkURL="" linkTarget="" >
+	<caption>My Trip!</caption>	
+</image>
+<image imageURL="Pictures/trip10.jpg" thumbURL="Pictures/trip10.jpg" linkURL="" linkTarget="" >
+	<caption>My Trip!</caption>	
+</image>
+<image imageURL="Pictures/trip11.jpg" thumbURL="Pictures/trip11.jpg" linkURL="" linkTarget="" >
+	<caption>My Trip!</caption>	
+</image>
+<image imageURL="Pictures/trip12.jpg" thumbURL="Pictures/trip12.jpg" linkURL="" linkTarget="" >
+	<caption>My Trip!</caption>	
+</image>
+<image imageURL="Pictures/trip13.jpg" thumbURL="Pictures/trip13.jpg" linkURL="" linkTarget="" >
+	<caption>My Trip!</caption>	
+</image>
+<image imageURL="Pictures/trip14.jpg" thumbURL="Pictures/trip14.jpg" linkURL="" linkTarget="" >
+	<caption>My Trip!</caption>	
+</image>
+<image imageURL="Pictures/trip15.jpg" thumbURL="Pictures/trip15.jpg" linkURL="" linkTarget="" >
+	<caption>My Trip!</caption>	
+</image>
+<image imageURL="Pictures/trip16.jpg" thumbURL="Pictures/trip16.jpg" linkURL="" linkTarget="" >
+	<caption>My Trip!</caption>	
+</image>
+<image imageURL="Pictures/trip17.jpg" thumbURL="Pictures/trip17.jpg" linkURL="" linkTarget="" >
+	<caption>My Trip!</caption>	
+</image>
+<image imageURL="Pictures/trip18.jpg" thumbURL="Pictures/trip18.jpg" linkURL="" linkTarget="" >
+	<caption>My Trip!</caption>	
+</image>
+<image imageURL="Pictures/trip19.jpg" thumbURL="Pictures/trip19.jpg" linkURL="" linkTarget="" >
+	<caption>My Trip!</caption>	
+</image>
+<image imageURL="Pictures/trip20.jpg" thumbURL="Pictures/trip20.jpg" linkURL="" linkTarget="" >
+	<caption>My Trip!</caption>	
+</image>
+<image imageURL="Pictures/trip21.jpg" thumbURL="Pictures/trip21.jpg" linkURL="" linkTarget="" >
+	<caption>My Trip!</caption>	
+</image>
+<image imageURL="Pictures/trip22.jpg" thumbURL="Pictures/trip22.jpg" linkURL="" linkTarget="" >
+	<caption>My Trip!</caption>	
+</image>
+<image imageURL="Pictures/trip23.jpg" thumbURL="Pictures/trip23.jpg" linkURL="" linkTarget="" >
+	<caption>My Trip!</caption>	
+</image>
+<image imageURL="Pictures/trip24.jpg" thumbURL="Pictures/trip24.jpg" linkURL="" linkTarget="" >
+	<caption>My Trip!</caption>	
+</image>
+<image imageURL="Pictures/trip25.jpg" thumbURL="Pictures/trip25.jpg" linkURL="" linkTarget="" >
+	<caption>My Trip!</caption>	
+</image>
+<image imageURL="Pictures/trip26.jpg" thumbURL="Pictures/trip26.jpg" linkURL="" linkTarget="" >
+	<caption>My Trip!</caption>	
+</image>
+
+</simpleviewergallery>

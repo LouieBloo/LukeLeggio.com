@@ -1,0 +1,99 @@
+#gridMenu{
+	list-style: none;
+}
+
+.card{
+	display:inline-block;
+	border-style: solid;
+    border-width: 2px;
+    background-color:white;
+}
+
+.card p{
+	margin:0px;
+}
+
+.cardContent{
+	
+}
+
+.cardMover{
+	cursor:pointer;
+	
+}
+
+.cardHeader{
+	background:#d6d6d6;
+	
+}
+
+.cardBody{
+	padding:5px;
+}
+
+.cardFooter{
+	background:#d6d6d6;
+}
+
+.movingCard{
+	position:fixed;
+	z-index:100;
+}
+
+.frozenCard{
+	position:relative;
+}
+
+.gridRow{
+	
+}
+
+.gridRowAddButton{
+	position: absolute;
+    top: -28px;
+    left: 98%;
+    z-index: 10;
+    cursor:pointer;
+    background-color:white;
+}
+
+.gridRowSubtractButton{
+	position: absolute;
+    top: -28px;
+    left: 96%;
+    z-index: 10;
+    cursor:pointer;
+    background-color:white;
+}
+
+.gridRowEdit{
+	border-style: solid;
+    border-width: 1px;
+    border-color:green;
+    padding:3px;
+}
+
+.gridCol{
+	
+}
+
+.gridColSubtractButton{
+	position: absolute;
+    left: 0;
+    top: -12px;
+    z-index: 11;
+    cursor:pointer;
+    background-color:white;
+}
+
+.gridColEdit{
+	border-style: solid;
+	border-color:blue;
+    border-width: 1px;
+    min-height:100px;
+    padding:3px;
+}
+
+.invis{
+	display:none;
+}

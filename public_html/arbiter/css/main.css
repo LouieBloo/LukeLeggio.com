@@ -1,0 +1,184 @@
+@media (max-width: 768px) {
+    .affix {
+        position: static;
+    }
+}
+
+.ArbRow{
+	background-color:#13FF13 !important;
+}
+
+
+
+.DatabaseViewTable{
+	margin-left:auto;
+	margin-right:auto;
+
+    border-collapse: collapse;
+    width: 100% !important;
+}
+
+.DatabaseViewTable > thead > tr > th{
+	text-align:center;
+	
+	
+}
+
+.DatabaseViewTable > tbody > tr > td{
+	text-align:center !important;
+	
+	position:relative;
+}
+
+.leftAffix.affix{
+	left:41.77777777%;
+	top:10px;
+}
+
+.GameTD{
+	vertical-align: middle !important;
+}
+
+.Game{
+	height:80px;
+	
+    border-bottom: 8px solid #eee;
+}
+
+.Game:hover{
+	
+    /*border-bottom: 8px solid #99e6ff;
+	*/
+	cursor:pointer;
+	
+	
+}
+
+.GameData{
+	display:none;
+}
+
+.GameInfo{
+	width:20%;
+	display:inline-block;
+}
+
+.GameView{
+
+}
+
+.panel-heading{
+	font-size:18px;
+}
+
+.ScrapeViewTable{
+	margin-left:auto;
+	margin-right:auto;
+
+    border-collapse: collapse;
+    width: 100% !important;
+}
+
+.ScrapeViewTable th{
+	text-align:center;
+}
+
+.ScrapeViewTable thead tr td{
+	font-weight:600;
+}
+
+.ScrapeViewTable td{
+	text-align:center;
+}
+
+.ScrollingFixed{
+	overflow-y:auto;
+	height:100%;
+}
+
+.shadow{
+	border-style: inset;
+	border-color:#048aa2;
+	border-width:1px;
+	padding-top:8px;
+}
+
+#GameDetailView{
+	padding:0px 8px 0px 8px;
+}
+
+#MainContent{
+	
+		width:100% !important;
+	}
+	
+@media only screen and (max-width: 992px) {
+	.leftAffix.affix{
+		position:relative;
+		left:0px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#MainContent{
+	
+		width:100% !important;
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*colors*/
+
+.Blue{
+	color:#000099 !important;
+}
+
+.Black{
+	color:#000000 !important;
+}
+
+.GreenBackground{
+	background-color:#00cc00;
+}
+
+.YellowBackground{
+	background-color:yellow;
+}
+/*font sizes*/
+.MediumFont{
+	font-size:22px;
+}
+
+.SmallFont{
+	font-size:13px;
+}
+
+
+.topBuffer{
+	margin-top:25px;
+}
+
+
+
+#DatabaseView
+{
+
+}
+
+

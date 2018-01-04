@@ -1,0 +1,321 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        
+        <script   src="https://code.jquery.com/jquery-3.1.0.slim.min.js"   integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8="   crossorigin="anonymous"></script>
+        <script src="/JS/mobileInteractions.js"></script>
+        
+        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        
+        <link rel="stylesheet" type="text/css" href="../CSS/styles.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/general.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/projects.css">
+        
+        
+		<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194">
+		<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+		<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+        
+        <title>Luke Leggio</title>
+        
+        
+        
+    </head>
+    
+    <body>
+    	
+
+        <div id='cssmenu'>
+			<ul>
+   			<li><a href='../index.html'>Home</a></li>
+   			<li class='active'><a href='./projects.html'>Projects</a></li>
+   			<li><a href='../Resume/resume.html'>Resume</a></li>
+   			<li><a href='../Contact/contact.html'>Contact</a></li>
+			</ul>
+		</div>
+		
+		
+		
+		
+		
+		<div id='welcomeMessage'>
+			
+			
+			
+			<p id="welcomeMessageTitle">Projects</p>
+			
+			
+			
+		</div>
+		
+		<div id='projectCategories'>
+			
+			<hr class='spaceCreator' />
+			
+			<div class='anotherSegment'>
+				
+				<div class='leftSegmentHeader'>
+					<p id='eggbryo'>Eggbryo</p>	
+				</div>
+				
+				<p id='note'>Unfortunately Chrome, Firefox, and IE have been phasing out plugin based web applications.
+					 Because of this, the Unity Web Player will no longer work on a lot of browsers, so I won’t be able to show
+					  you some projects through this site; however, you can download them and run them locally.</p>
+				
+				<div class='screenshotDiv'>
+					<img title"Eggbryo Screenshot" src='../Pictures/eggbryoMain.png'>
+					<img title"Eggbryo Screenshot" src='../Pictures/eggSnap1.png'>
+					<p class="paragraphText">Eggbryo is the latest game I’ve been working on in my free time. It is a quick paced game with a simple task; 
+						save the eggs before they freeze to death. The player must switch between the colored boxes on either 
+						side of the screen before they can click an egg. If you have the wrong colored box selected and you click an egg
+						that egg will die. There are many kinds of eggs and even a few powerups to help the player.</p>
+					
+					
+					
+					<img class='screenshotMiddle' title"Eggbryo Screenshot" src='../Pictures/eggSnap2.png'>
+					
+					<p class="paragraphText">Eggbryo was created entirely in Unity, and is 100% of my own code and design. The game is aimed at the Android platform
+						 and just released on the Play Store! Go check it out!</p>
+						 
+					
+				</div>
+				
+				<div class='lowerDownloadStuff'>
+					<p class='gameNote'>Download Notes:</p>
+					<p class='noteParagraph'>To run the game just open the .exe file in the source folder. Since the game is targeted for mobile release it will ask you for your graphics settings, so make sure 
+						you select "Fantastic", have the windowed button enabled, and choose a resolution at or above 1280x720. <br><br>-Press Q to quit. <br><br>Have Fun!</p>
+						
+							
+				
+				</div>
+				
+				
+				<form class='downloadButton' method="get" action="../Files/EggbryoBeta.zip">
+					<button type="submit">Download Eggbryo or check it out on the Play Store!</button>
+				</form>	
+				
+				
+			</div>
+			
+			<hr class='spaceCreator' />
+			
+			<!--Mosaic-->
+			<div class='anotherSegment'>
+				
+				<div class='leftSegmentHeader'>
+					<p id='mosaic'>Mosaic Creator</p>	
+				</div>
+				
+				<div class='screenshotDiv'>
+					<img title"Mosaic Screenshot" src='../Pictures/mosaic1.png'>
+					<img title"Mosaic Screenshot" src='../Pictures/mosaic2.png'>
+					<p class="paragraphText">Mosaic is an itty bitty program I made just for the fun of it. It will take in a source picture 
+						as well as a source folder, and recreate the source picture from all the images in the source folder. I 
+						accomplish this by scaling all of the source folder's pictures to the desired dimensions, iterating 
+						over each pixel on the source picture, finding the source folder picture that best matches that pixel
+						 color, and then creating a giant image from the results.</p>
+					
+					
+				</div>
+				
+				<div class='lowerDownloadStuff'>
+					<p class='gameNote'>Download Notes:</p>
+					<p class='noteParagraph'>To run the program just open the .exe in the folder. Just like Eggbryo make sure you run it in WINDOWED mode, and follow the directions on the screen.
+						
+						 <br><br>Have Fun!</p>
+						
+							
+				
+				</div>
+				
+				
+				<form class='downloadButton' method="get" action="../Files/MosaicCreator.zip">
+					<button type="submit">Download Mosaic Creator</button>
+				</form>	
+				
+				
+			</div>
+			
+			
+			<hr class='spaceCreator' />
+			
+			<!--ZOMBIE RPG and Dawn-->
+			<div class='anotherSegment'>
+				
+				<div class='leftSegmentHeader'>
+					<p>The Last Dawn & Base Defense</p>	
+				</div>
+				
+				<div class='screenshotDiv'>
+					<img title"Last Dawn" src='../Pictures/zombieRPG1.png'>
+					<img title"Last Dawn" src='../Pictures/zombieRPG2.png'>
+					<p class="paragraphText">The Last Dawn and Base Defense were the first two games I ever created.
+						 These games were written entirely in C++ and use the SDL2 libraries to display the graphics. 
+						 The engine for the games were written from scratch, and include features such as: dynamic A* pathfinding/movement,
+						  automated turrets, walls, particles, weapon pickups, item pickups, health systems, upgrade systems, reloading, minimaps, and collision detection.</p>
+					
+					
+					
+					<img class='screenshotMiddle' title"Base Defense Screenshot" src='../Pictures/baseDefense.png'>
+					
+					<p class="paragraphText">I was writing the engine and making the games simultaneously; therefore, there wasn't a whole lot to do in either of them. I quickly moved on to 
+						developing within Unity as it took a lot of the overhead out of the equation. I put these games up mainly to display where I’ve come from, and to
+						show that I have a deeper understanding of game engines aside from just using them.</p>
+						 
+					
+				</div>
+				
+				<div class='lowerDownloadStuff'>
+					<p class='gameNote'>Download Notes:</p>
+					<p class='noteParagraph'>The only game you can download currently is The Last Dawn since I've lost the source code for Base Defense. Base Defense
+						had my updated engine and the A* pathfinding. This is an EXTREME prototype! There is barely any functionality other than picking up weapons, shooting, and opening the backpack. 
+						To run the game open up the folder and run ZombieRPG.exe<br><br>-WASD to move<br>-1,2,3 to switch weapons<Br>-Left click to fire <br>-R to reload <br>-T for backpack<br>-Spam Right click to quit
+						 <br><br>Have Fun!</p>
+						
+							
+				
+				</div>
+				
+				
+				<form class='downloadButton' method="get" action="../Files/TheLastDawn.zip">
+					<button type="submit">Download The Last Dawn</button>
+				</form>	
+				
+				
+			</div>
+			
+			
+			
+			
+				
+			<hr class='spaceCreator' />
+			
+			<!--Music-->
+			
+			
+			<div class='anotherSegment'>
+					
+					
+					<div class='leftSegmentHeader'>
+						<p>This Website</p>	
+					</div>
+					
+					<div class='screenshotDiv'>
+						<p class="paragraphText">This website was created via my own code and design.</p>
+					
+					
+					</div>
+				</div>
+			
+			<hr class='spaceCreator' />
+			
+			
+			<!--QUADS-->
+			<div class='anotherSegment'>
+				
+				<div class='leftSegmentHeader'>
+					<p>Quads and Planes</p>	
+				</div>
+				
+				<p class="paragraphText">Check out my YouTube video highlighting some of my quad and plane footage!</p>
+				
+				<iframe id='youtubeVid' width="560" height="315" src="https://www.youtube.com/embed/itW14fFd22s" frameborder="0" allowfullscreen></iframe>
+				
+				<div class='screenshotDiv'>
+					
+					
+					
+					
+					<img title"Quad" src='../Pictures/quad1.png'>
+					<img title"Quad" src='../Pictures/quad2.png'>
+					<p class="paragraphText">Quadcopters have been a recent obsession of mine. Over the winter I built a 600mm quad from scratch that features 12 inch blades and 60 Amp 
+						speed controllers. I learned a ton about RC equipment and quadcopter theory during the build. Although there were countless problems and setbacks 
+						I pushed through and now have an awesome machine to show for it.</p>
+					
+					
+					
+					<img class='screenshotMiddle' title"Quad" src='../Pictures/quad3.png'>
+					
+					<p class="paragraphText">Above is a picture of the 600mm quad. I have a front facing camera for FPV flying as well as mounting for a GoPro. As I’m writing this the quad is in full 
+						working condition, but the plane has suffered some massive damage from a recent crash :(</p>
+						 
+					
+				</div>
+				
+
+			</div>
+			
+			
+			
+			<hr class='spaceCreator' />
+			
+			
+			<!--Music-->
+			<div class='anotherSegment'>
+				
+				<div class='leftSegmentHeader'>
+					<p>Music</p>	
+				</div>
+				
+				
+				<div class='screenshotDiv'>
+					
+					
+					<img title"Quad" src='../Pictures/piano.jpg'>
+					<img title"Quad" src='../Pictures/fruityLoops.png'>
+					<p class="paragraphText">Music has always been a passion of mine and I continue to pursue it when I have time. I took piano lessons as a child and still play keyboard to this day.
+						I have produced many songs with FrutiyLoops Studio with my main genre of influence being rap and hip-hop. Although most are not worth sharing, I picked two of my favorites to showcase.</p>
+					
+					<audio controls>
+  				
+  						<source src="../Files/song1.mp3" type="audio/mpeg">
+						Your browser does not support the audio element.
+					</audio> 
+			
+					<audio controls>
+  				
+  						<source src="../Files/song2.mp3" type="audio/mpeg">
+						Your browser does not support the audio element.
+					</audio> 
+					
+		
+						 
+					
+				</div>
+				
+
+			</div>
+			
+			
+			
+			
+			
+			<hr class='spaceMade' />
+			
+			
+			
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<div class='lowerNav'>
+				<a title="My Facebook" href='https://www.facebook.com/lukeleggio'><img src="../Pictures/facebookIcon.gif" /></a>
+				<a title="Email me" href='../Contact/contact.html'><img src="../Pictures/gmailIcon.png" /></a>
+				<a title="My LinkedIn" href='https://www.linkedin.com/in/lukeleggio'><img src="../Pictures/linkedinIcon.png" /></a>
+			</div>
+			
+        </div>
+        
+    </body>
+    
+</html>

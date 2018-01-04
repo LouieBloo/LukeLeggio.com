@@ -1,0 +1,163 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.GlobalFont{
+	
+}
+
+#AccountBalanceButtons{
+	display:inline-block;
+	
+	width:50%;
+	
+	
+}
+
+.AccountBalanceButton{
+	display:inline-block;
+	font-size:20px;
+	width:50%;
+}
+
+#AddCategoryButton{
+	color:white;
+	font-size:25px;
+	background-color:purple;
+}
+
+#AddAccountButton{
+	color:white;
+	font-size:25px;
+	background-color:green;
+}
+
+#CategoryInput{
+	display:none;
+	font-size:30px;
+}
+
+#CategoryInputList{
+	text-align:center;
+}
+
+.CategoryButtons{
+	display:inline-block;
+	margin-left:10px;
+	margin-right:10px;
+	
+	vertical-align:top;
+}
+
+.CategoryButtons button{
+	background-color:red;
+	color:white;
+	font-size:20px;
+	
+	padding:0px;
+	margin:0px;
+	
+    
+    cursor:pointer;
+    
+}
+
+#Chart{
+	
+}
+
+#chartContainer{
+	
+	
+	margin-right:auto;
+	margin-left:auto;
+	
+	width:100%;
+	height:400px;
+	
+}
+
+#errorMessage{
+	position:fixed;
+	top:1%;
+	left:85%;
+	
+	font-size:15px;
+}
+
+.GreenFont{
+	color:#00ff00;
+}
+
+.indexTitleHeader{
+	font-size:20px;
+	color:blue;
+}
+
+.indexTitleValue{
+	font-size:17px;
+	color:black;
+}
+
+#insertCategoryForm{
+	display:none;
+	font-size:20px;
+	text-align:center;
+}
+
+#insertCategoryForm input{
+	margin: 10px 0px 10px 0px;
+}
+
+#insertAccountForm{
+	display:none;
+	font-size:20px;
+	text-align:center;
+}
+
+#insertAccountForm input{
+	margin: 10px 0px 10px 0px;
+}
+
+#BottomBar{
+	text-align:center;
+	height:100%;
+}
+
+#RecalculateButton{
+	color:white;
+	font-size:25px;
+	background-color:red;
+}
+
+#RecalculateWarning{
+	font-size:12px;
+	max-width:200px;
+}
+
+#Tabs{
+	
+}
+
+#OptionsButtonDiv{
+	text-align:left;
+}
+
+#OptionsButton{
+	position:relative;
+	
+	
+	color:white;
+	font-size:25px;
+	background-color:blue;
+}
+
+#TotalBalance{
+	
+}
+
+#UserName{
+	font-size:30px;
+	text-align:center;
+}
+

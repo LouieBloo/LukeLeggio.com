@@ -1,0 +1,210 @@
+
+
+body{
+	margin:0px;
+	padding:0px;
+	
+	
+}
+
+#BottomBar{
+	background-color:#5D5D5D;
+	font-size:20px;
+	color:#FFFFFF;
+	text-align:center;
+}
+
+#BottomBar p{
+	display:inline-block;
+	margin-left:0px;
+	margin-right:40px;
+	
+}
+
+#BottomBar a{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+#BottomBar a:visited{
+	color:#FFFFFF;
+}
+
+#BottomBar a:hover{
+	transition:color 0.5s ease;
+	color:#FF6700;
+}
+
+#BottomBarWrap{
+	margin-left:auto;
+	margin-right:auto;
+	max-width:1320px;
+}
+
+.DisplayNone{
+	display:none;
+}
+
+#FacebookIcon{
+	padding-top:20px;
+	width:125px;
+	height:30px;
+	margin:0px 20px 0px 20px;
+}
+
+.GlobalFont{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.GlobalFont2{
+	font-family: 'Lora', serif;
+}
+
+.GlobalFont3{
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+
+/*Main Gallery*/
+#MainGallery{
+	
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10em;
+}
+
+#MainGalleryPictures{
+	
+}
+
+
+
+.MainGalleryStatic{
+	
+
+}
+
+
+.DisplayNone{
+	display:none;
+}
+
+.DisplayBlock{
+	display:block;
+}
+
+.MainNavBar{
+	position:fixed;
+	top:0px;
+	z-index:999;
+	
+	margin-left:auto;
+	margin-right:auto;
+	background:#ffffff;
+	
+	
+	width:100%;
+	
+	margin-bottom:30px;
+}
+
+.MainNavBar img{
+	position:relative;
+	
+	margin:20px 30px 15px 0px;
+}
+
+.MainNavBar ul{
+	text-align:right;
+	position:relative;
+	
+	margin:0px;
+	padding-bottom:0px;
+	list-style-type:none;
+}
+
+.MainNavBar li{
+	display:inline;
+	margin-right:30px;
+}
+
+.MainNavBar a{
+	font-size:25px;
+	
+	text-decoration:none;
+	color:#4d4d4d;
+	
+	transition:color 0.5s ease;
+}
+
+.MainNavBar a:visited{
+	
+}
+
+.MainNavBar a:hover{
+	
+	
+	
+	color:#ff6700;
+	
+}
+
+
+.SpaceCreator{
+	margin-top:35px;
+	margin-bottom:35px;
+}
+
+
+
+
+.TopMessage{
+	display:inline;
+	color:#4d4d4d;
+	font-size:20px;
+	margin-right:50px;
+	
+}
+
+
+.TopSocialMediaLinks{
+	position:relative;
+	margin-left:30px;
+	display:inline;
+}
+
+.TopSocialMediaLinks img{
+	
+	margin:40px 0px 0px 20px;
+	height:30px;
+	width:30px;
+}
+
+#TopLogo{
+	display:inline;
+	position:relative;
+	
+	margin-left:40px;
+}
+
+#TopLogoImg{
+	display:inline;
+	
+	position:relative;
+	top:20px;
+	height:28px;
+	width:80px;
+	
+}
+
+
+#YelpIcon{
+	padding-top:20px;
+	width:80px;
+	height:30px;
+	
+}
